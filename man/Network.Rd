@@ -7,7 +7,12 @@ Translation regulation network construction
 This function constructs translational network by integrating sample-paired mRNA profile and protome profile.
 }
 \usage{
-Network(mRNAProfile, proteinProfile, NetworkType = "ProteinSpecific", OutputFileName = "NetWork.txt", method = "spearman", adjust = "BH", adjustCutoff = 0.01, mRNAProfileNARatio = NULL, proteinProfileNARatio = NULL, mRNAProfileZeroRatio = NULL, proteinProfileZeroRatio = NULL, ProfileNARatio = 0.3)
+Network(mRNAProfile, proteinProfile, 
+        NetworkType = "ProteinSpecific", OutputFileName = "NetWork.txt", 
+        method = "spearman", adjust = "BH", adjustCutoff = 0.01, 
+        mRNAProfileNARatio = NULL, proteinProfileNARatio = NULL, 
+        mRNAProfileZeroRatio = NULL, proteinProfileZeroRatio = NULL, 
+        ProfileNARatio = 0.3)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
