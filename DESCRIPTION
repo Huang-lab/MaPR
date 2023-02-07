@@ -1,0 +1,11 @@
+Package: MaTR
+Type: Package
+Title: Predict master translation regulators
+Version: 1.0
+Date: 2023-2-7
+Author: Zishan Wang,Kuan-lin Huang*
+Maintainer: Zishan Wang <zishan.wang@mssm.edu>
+Description: Construct a regulatory network of protein translation independent of transcriptional regulation by simutaniously using transcriptomic data and protomic data of the same cohort. Predict master translation regulators based on permutation of constructed protein translation regulatory network.
+License: None
+LazyData: TRUE
+Depends: R (>= 4.2.2),psych,ppcor
