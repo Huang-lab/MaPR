@@ -67,6 +67,11 @@ This function would output five files as following:
 }
 \examples{
 ##Translation network construction
-Network(mRNAProfile=datatests$mRNAProfile,proteinProfile=datatests$proteinProfile,NetworkType='ProteinSpecific',OutputFileName='NetWork.txt.gz',method='spearman',adjust='BH', adjustCutoff=0.01,mRNAProfileNARatio=NULL,proteinProfileNARatio=0.3,mRNAProfileZeroRatio=0.3,proteinProfileZeroRatio=NULL,ProfileNARatio=0.3)
+Network(mRNAProfile = datatests$mRNAProfile, proteinProfile = datatests$proteinProfile,
+        NetworkType = 'ProteinSpecific', OutputFileName = 'NetWork.txt.gz',
+        method = 'spearman', adjust = 'BH', adjustCutoff = 0.01, 
+        mRNAProfileNARatio = NULL, proteinProfileNARatio = 0.3,
+        mRNAProfileZeroRatio = 0.3, proteinProfileZeroRatio = NULL,
+        ProfileNARatio = 0.3)
 }
 \keyword{Network}
