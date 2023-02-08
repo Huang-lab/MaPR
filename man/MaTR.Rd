@@ -27,10 +27,11 @@ MaTR(Network, adjust = "BH", adjustCutoff = 0.01, rand = 1000)
 This function is required to load in network generated from \code{\link{Network}} function and will output one file named NetworkRegulatorDegreeSignicance.txt, providing the permutation significance of a gene predicted as translation regulator.
 }
 \examples{
+# Load in translation network constructed by Network function
 infile <- gzfile('NetWork.txt.gz','r')
 Network <- read.table(infile,header = T,sep = '\t',stringsAsFactors = F)
 close(infile)
-
+# Predict translation regulator based on permutation of translation network
 MaTR(Network = Network, adjust = 'BH', adjustCutoff = 0.01, rand = 1000)
 }
 \keyword{MaTR}
