@@ -1,4 +1,4 @@
-MaTR <-
+MaPR <-
 function(Network, adjust = 'BH', adjustCutoff = 0.01, rand = 1000){
   Network$FDR <- p.adjust(Network$p.value,method = adjust)
   NetworkSig <- Network[!is.na(Network$FDR) & Network$FDR<adjustCutoff,]
