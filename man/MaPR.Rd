@@ -1,13 +1,13 @@
-\name{MaTR}
-\alias{MaTR}
+\name{MaPR}
+\alias{MaPR}
 \title{
-Master translation regulator Prediction
+Master Protein abundance Regulator Prediction
 }
 \description{
-This function predict master translation regulator based on the permutation of translational network.
+This function predict master protein abundance regulator based on the permutation of translational network.
 }
 \usage{
-MaTR(Network, adjust = "BH", adjustCutoff = 0.01, rand = 1000)
+MaPR(Network, adjust = "BH", adjustCutoff = 0.01, rand = 1000)
 }
 \arguments{
   \item{Network}{
@@ -32,6 +32,6 @@ infile <- gzfile('NetWork.txt.gz','r')
 Network <- read.table(infile,header = T,sep = '\t',stringsAsFactors = F)
 close(infile)
 # Predict translation regulator based on permutation of translation network
-MaTR(Network = Network, adjust = 'BH', adjustCutoff = 0.01, rand = 1000)
+MaPR(Network = Network, adjust = 'BH', adjustCutoff = 0.01, rand = 1000)
 }
 \keyword{MaTR}
