@@ -34,4 +34,4 @@ close(infile)
 # Predict translation regulator based on permutation of translation network
 MaPR(Network = Network, adjust = 'BH', adjustCutoff = 0.01, rand = 1000)
 }
-\keyword{MaTR}
+\keyword{MaPR}
