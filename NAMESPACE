@@ -1,4 +1,4 @@
-export("Network", "MaTR")
+export("Network", "MaPR")
 importFrom(psych, corr.test)
 importFrom(ppcor, spcor.test)
 exportPattern("^[[:alpha:]]+")
