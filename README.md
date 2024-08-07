@@ -1,4 +1,4 @@
-# **Master regulator governing protein abundance across ten cancer types**
+# **Master regulators governing protein abundance across ten cancer types**
 
 [Citation of our manuscript if help you https://link.springer.com] Still in submission
 
