@@ -1,8 +1,6 @@
-# **Master regulators governing protein abundance across ten cancer types**
+# **Master regulators governing protein abundance\**
 
-[Citation of our manuscript if help you https://link.springer.com] Still in submission
+This package has two functions: **Network** and **MaPR**.
 
-This package have two functions: **Network** and **MaPR**.
-
-**Network** function construct a regulatory network of protein translation independent of transcriptional regulation by simutaniously using transcriptomic data and protomic data of the same cohort. <br /><br />
-**MaPR** function predict master protein abundance regulators based on permutation of constructed protein translation regulatory network.
+The **Network** function constructs a regulatory network of protein translation independent of transcriptional regulation by simultaneously using transcriptomic data and proteomic data of the same cohort. <br /><br />
+The **MaPR** function predicts master protein abundance regulators based on the permutation of the constructed protein translation regulatory network.
