@@ -16,3 +16,11 @@ if(!require("devtools")) install.packages("devtools")
 devtools::install_github("https://github.com/Huang-lab/MaPR")
 library(MaPR)
 ```
+
+
+### Citation
+If you used or adapted MaPR in your study, please cite our paper [].
+
+
+### Contact
+If you run into issues, you can contact authors: zishan.wang{at}mssm.edu or kuan-lin.huang{at}mssm.edu.
