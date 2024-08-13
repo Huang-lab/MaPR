@@ -18,7 +18,7 @@ library(MaPR)
 
 <br /><br />
 ### Citation
-If you used or adapted MaPR in your study, please cite our paper [].
+If you used or adapted MaPR in your study, please cite our paper [Under submission].
 
 <br /><br />
 ### Contact
