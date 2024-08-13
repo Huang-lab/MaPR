@@ -11,7 +11,8 @@ The **MaPR** function predicts master protein abundance regulators based on the 
 **Installation**<br /><br />
 The package can be installed directly from GitHub by typing the following in an `R` console:<br /><br />
 ```R
-if(!require("devtools")) install.packages("devtools")<br /><br />
-devtools::install_github("https://github.com/Huang-lab/MaPR")<br /><br />
+if(!require("devtools")) install.packages("devtools")
+
+devtools::install_github("https://github.com/Huang-lab/MaPR")
 library(MaPR)
 ```
