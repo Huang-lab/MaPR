@@ -1,10 +1,10 @@
 \name{Network}
 \alias{Network}
 \title{
-Translation regulation network construction
+Post-transcriptional regulatory network construction
 }
 \description{
-This function constructs translational network by integrating sample-paired mRNA profile and protome profile.
+This function constructs post-transcriptional regulatory network by integrating sample-paired mRNA profile and protome profile.
 }
 \usage{
 Network(mRNAProfile, proteinProfile, 
