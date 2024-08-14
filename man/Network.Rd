@@ -63,10 +63,10 @@ This function would output five files as following:
    mRNACoexpPvalFDRNetWork.txt.gz stores mRNA expression correlation significance with ajusted p value above the diagonal.
    ProteinCoexpCorNetWork.txt.gz stores protein expression correlation matrix across all the genes
    ProteinCoexpPvalFDRNetWork.txt.gz stores protein expression correlation significance with ajusted p value above the diagonal.
-   NetWork.txt.gz stores all the candidate post-transcriptional regulations information of four columns: Regulator, Target, p.value, estimate.
+   NetWork.txt.gz stores all the candidate regulations information of four columns: Regulator, Target, p.value, estimate.
 }
 \examples{
-## Post-transcriptional regulatory network construction
+## Post-transcriptional regulatory network construction with parameter NetworkType of 'ProteinSpecific'
 Network(mRNAProfile = datatests$mRNAProfile, proteinProfile = datatests$proteinProfile,
         NetworkType = 'ProteinSpecific', OutputFileName = 'NetWork.txt.gz',
         method = 'spearman', adjust = 'BH', adjustCutoff = 0.01, 
