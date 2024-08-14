@@ -4,7 +4,7 @@
 Master Protein abundance Regulator Prediction
 }
 \description{
-This function predict master protein abundance regulator based on the permutation of post-transcriptional network.
+This function predict master protein abundance regulator based on the permutation of post-transcriptional regulatory network.
 }
 \usage{
 MaPR(Network, adjust = "BH", adjustCutoff = 0.01, rand = 1000)
