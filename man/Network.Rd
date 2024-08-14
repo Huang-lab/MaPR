@@ -66,7 +66,7 @@ This function would output five files as following:
    NetWork.txt.gz stores all the candidate regulations information of four columns: Regulator, Target, p.value, estimate.
 }
 \examples{
-## Post-transcriptional regulatory network construction with parameter NetworkType of 'ProteinSpecific'
+## Post-transcriptional regulatory network construction by Network function with NetworkType = 'ProteinSpecific'
 Network(mRNAProfile = datatests$mRNAProfile, proteinProfile = datatests$proteinProfile,
         NetworkType = 'ProteinSpecific', OutputFileName = 'NetWork.txt.gz',
         method = 'spearman', adjust = 'BH', adjustCutoff = 0.01, 
