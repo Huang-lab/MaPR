@@ -1,4 +1,4 @@
-# **Master regulators governing protein abundance\**
+# **Master regulators of protein abundance\**
 
 
 ## Introduction
