@@ -46,7 +46,7 @@ function(mRNAProfile,proteinProfile,NetworkType='ProteinSpecific',OutputFileName
       for (i in 1:nrow(FDRsigM1)) {
         tmp1 <- proteinProfile1[,FDRsigM1[i,1]]; tmp2 <- proteinProfile1[,FDRsigM1[i,2]]; tmp3 <- mRNAProfile1[,FDRsigM1[i,2]]
         tmpna_ind <- (is.na(tmp1) | is.na(tmp2) | is.na(tmp3)); tmpna_ind1 <- !tmpna_ind
-        if(sum(tmpna_ind)/length(tmp1)<=ProfileNARatio){
+        if(sum(tmpna_ind)/length(tmp1)<ProfileNARatio){
           tmp0 <- spcor.test(tmp1[tmpna_ind1],tmp2[tmpna_ind1],tmp3[tmpna_ind1],method = method)
           FDRsigM1$estimate[i] <- tmp0$estimate; FDRsigM1$p.value[i] <- tmp0$p.value
         }
